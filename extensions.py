@@ -3,7 +3,6 @@ import json
 
 class APIException(Exception):
     pass
-
 class Convertor:
     @staticmethod
     def get_price(base,quote,amount):
